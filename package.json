@@ -1,0 +1,19 @@
+{
+  "name": "ueditor-qiniu-node",
+  "version": "0.0.1",
+  "description": "NodeJS server for UEditor&Qiniu",
+  "author": "warrenwyf@gmail.com",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodeunit router_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warrenwyf/ueditor-qiniu-node.git"
+  },
+  "dependencies": {
+    "nodeunit": "^0.9.1",
+    "qiniu": "^6.1.6",
+    "restify": "^2.8.5"
+  }
+}
